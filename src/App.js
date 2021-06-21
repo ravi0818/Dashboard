@@ -12,7 +12,7 @@ class App extends React.Component {
       <div className="App">
         <div className="container-fluid">
           <div className="row">
-            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+            <div className="col-lg-1 col-md-1 col-sm-1 col-xs-1" style={{maxWidth:70}}>
                   <Menu/>
             </div>
             <div className="col-lg-11 col-md-11 col-sm-11 col-xs-11">
